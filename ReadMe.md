@@ -1,20 +1,12 @@
----
-layout: post
-author: LIU,HONGYANG
-tags:[Java]
----
-
-
-
 > 分词词库
 
 
 
+地址：https://github.com/LIU-HONGYANG/ChineseTokenizer/blob/master/dict.txt
+
 
 
 ![image-20200527142007478](https://tva1.sinaimg.cn/large/007S8ZIlgy1gf6zix2a48j30iu018dfr.jpg)
-
-
 
 
 
