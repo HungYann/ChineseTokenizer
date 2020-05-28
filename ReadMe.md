@@ -1,3 +1,15 @@
+# 中文分词
+
+
+
+目的：用来将中文单词分成一个个词组进行后续处理。
+
+编写语言为**Java**
+
+
+
+
+
 > 分词词库
 
 
@@ -12,9 +24,9 @@
 
 
 
-##### 1.分词器代码
+> 分词器代码
 
-
+##### 
 
 ```java
 package chapter01;
@@ -140,11 +152,9 @@ public class FenCi {
 
 ```
 
+> 测试代码
 
-
-##### 2.测试代码
-
-
+##### 
 
 ```java
 package chapter01;
@@ -180,6 +190,58 @@ public class TestFenCi {
 
 
 
-##### 3.测试结果
+> 测试结果
 
-![image-20200527141911995](https://tva1.sinaimg.cn/large/007S8ZIlgy1gf6zi039l6j306i0jewey.jpg)
+
+
+1.
+
+![Screenshot 2020-05-28 at 18.22.44](https://tva1.sinaimg.cn/large/007S8ZIlgy1gf8c5vp9ldj306y0dsq4n.jpg)
+
+
+
+2.
+
+![Screenshot 2020-05-28 at 18.22.49](https://tva1.sinaimg.cn/large/007S8ZIlgy1gf8c60l2axj30680e4abb.jpg)
+
+
+
+> 使用方法
+
+
+
+1.核心文件是：
+
+[FenCi.java](https://github.com/LIU-HONGYANG/ChineseTokenizer/blob/master/FenCi.java)
+
+[TestFenCi.java](https://github.com/LIU-HONGYANG/ChineseTokenizer/blob/master/TestFenCi.java)
+
+下载即可使用
+
+
+
+2.
+
+- 在分词器Java代码中，“dict.txt”为读取词典的语句, 可以更改
+
+```
+ //读取词库文本
+ String file = "dict.txt";
+```
+
+
+
+-  在测试代码中，receive为接收的字符串
+
+```
+String receive
+```
+
+
+
+3. 词库位置是 [词库](https://github.com/LIU-HONGYANG/ChineseTokenizer/tree/master/%E4%B8%AD%E6%96%87%E5%88%86%E8%AF%8D%E8%AF%8D%E5%BA%93%E6%95%B4%E7%90%86) ，建议自行更改或添加词库或单词
+
+
+
+
+
